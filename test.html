@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html lang="uk">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Таблиця</title>
+    <style>
+        table {
+            border-collapse: collapse;
+            width: 100%;
+        }
+
+        td,
+        th {
+            border: 1px solid black;
+            width: 80px;
+            height: 30px;
+            text-align: center;
+        }
+    </style>
+</head>
+
+<body>
+    <table>
+        <colgroup>
+            <col style="width: 20px;">
+            <col style="width: 200px;">
+            <col style="width: 300px;">
+            <col style="width: 300px;">
+            <col span="4" style="width: 5%;">
+            <col style="width: auto;">
+        </colgroup>
+        <thead>
+            <tr>
+                <td rowspan="3">1</td>
+                <td rowspan="3">2</td>
+                <td rowspan="3">3</td>
+                <td colspan="5">4</td>
+                <td rowspan="3">5</td>
+            </tr>
+            <tr>
+                <td rowspan="2">6</td>
+                <td colspan="4">7</td>
+
+            </tr>
+
+            <tr>
+                <td>7</td>
+                <td>9</td>
+                <td>10</td>
+                <td>11</td>
+            </tr>
+        </thead>
+
+        <tbody>
+            <!-- shape -->
+            <tr>
+                <td rowspan="3"></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+            </tr>
+
+            <tr>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+            </tr>
+
+            <tr>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td colspan="4"></td>
+                <td></td>
+            </tr>
+
+            <!-- shape -->
+            <tr>
+                <td rowspan="3"></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+            </tr>
+
+            <tr>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+            </tr>
+
+            <tr>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td colspan="4"></td>
+                <td></td>
+            </tr>
+
+            <!-- shape -->
+            <tr>
+                <td rowspan="3"></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+            </tr>
+
+            <tr>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+            </tr>
+
+            <tr>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td colspan="4"></td>
+                <td></td>
+            </tr>
+
+            <!-- shape -->
+            <tr>
+                <td rowspan="3"></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+            </tr>
+
+            <tr>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+            </tr>
+
+            <tr>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td colspan="4"></td>
+                <td></td>
+            </tr>
+        </tbody>
+
+
+
+        <tfoot>
+            <tr>
+            <tr>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+            </tr>
+            </tr>
+
+            <tr>
+                <td colspan="4"></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+            </tr>
+        </tfoot>
+    </table>
+</body>
+
+</html>
